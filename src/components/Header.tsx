@@ -12,7 +12,7 @@ const Header = ({ onClick }: Props) => {
   return (
     <>
       <header>
-        <h1 className="logo">Yasser</h1>
+        <a className="logo" href="#">Yasser</a>
         <div className="nav" ref={navRef}>
           <a href="#projects" onClick={showNavBar}>
             Projects
