@@ -4,15 +4,18 @@ interface Props {
   onClick?: () => void;
 }
 const Header = ({ onClick }: Props) => {
-  const navRef = useRef(HTMLDivElement);
+  const navRef = useRef<HTMLDivElement | null>(null);
 
   const showNavBar = () => {
+    //@ts-ignore
     navRef.current.classList.toggle("responsive");
   };
   return (
     <>
       <header>
-        <a className="logo" href="#">Yasser</a>
+        <a className="logo" href="#">
+          Yasser
+        </a>
         <div className="nav" ref={navRef}>
           <a href="#projects" onClick={showNavBar}>
             Projects
