@@ -11,6 +11,7 @@
     rgba(29, 82, 253, 1) 70%
   ); */
   background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  font-size: 1rem;
   margin-top: 4.2rem;
   padding: 0px 80px;
   min-height: 100vh;
@@ -31,7 +32,7 @@
 .bio {
   color: white;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   font-weight: 400;
   margin-top: 3.5rem;
 }
@@ -55,7 +56,7 @@
 .main-btn a {
   text-decoration: none;
   color: white;
-  font-size: 2rem;
+  font-size: 2em;
   font-family: "Orbitron", sans-serif;
   background: rgb(29, 253, 138);
   background: linear-gradient(
@@ -74,14 +75,16 @@
 .main-btn a:hover {
   transform: scale(1.1);
 }
-
+.links {
+  margin-left: 25px;
+}
 .links a {
   font-size: 2.5rem;
   margin-right: 1.8rem;
   color: white;
 }
 .links a:hover {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
 }
 .side-img img {
   width: 30rem;
@@ -92,8 +95,39 @@
   border-radius: 50%;
   height: 25rem;
 }
-@media (max-width: 1023) {
+@media (max-width: 1023px) {
   .main {
     overflow: hidden;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 614px) {
+  .main {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 600px) {
+  .main {
+    overflow: hidden;
+    font-size: 0.7rem;
+    margin: 15px 0 0 0;
+    min-height: 800px;
+    align-items: center;
+    min-height: 80vh;
+  }
+  .links {
+    margin-left: 0;
+  }
+}
+@media (max-width: 440px) {
+  .main {
+    overflow: hidden;
+    font-size: 0.5rem;
+  }
+  .bio {
+    margin-top: 0px;
+  }
+  .links a {
+    font-size: 2.01rem;
   }
 }

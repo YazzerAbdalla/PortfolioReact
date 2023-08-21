@@ -1,3 +1,6 @@
+section{
+  width: 100%;
+}
 .card i {
   font-size: 8rem;
   color: rgb(0, 195, 255);
@@ -13,4 +16,10 @@
 }
 .card:hover * {
   color: white;
+}
+@media (max-width: 582px){
+  .card{
+    padding: 50px;
+    
+  }
 }
