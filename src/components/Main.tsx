@@ -5,9 +5,6 @@ import sideImg from "../assets/Elsahel.png";
 const Main = () => {
   return (
     <section className="main">
-      <div className="bg-img">
-        <img src={bgImg} alt="" />
-      </div>
       <div className="flex">
         <div className="bio">
           <h2>
@@ -17,18 +14,21 @@ const Main = () => {
             <a href="#projects">My Work</a>
           </div>
           <div className="links">
-            <a href="">
+            <a href="https://www.linkedin.com/in/yasser-abdalla-a12113161/">
               <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/Yasser.Abdalla.512/">
               <i className="fa-brands fa-square-facebook"></i>
             </a>
-            <a href="">
+            {/* <a href="">
               <i className="fa-brands fa-instagram"></i>
-            </a>
-            <a href="">
+            </a> */}
+            <a href="https://github.com/YazzerAbdalla">
               <i className="fa-brands fa-square-github"></i>
             </a>
+          </div>
+          <div className="bg-img">
+            <img src={bgImg} alt="" />
           </div>
         </div>
         {/* <div className="side-img">
