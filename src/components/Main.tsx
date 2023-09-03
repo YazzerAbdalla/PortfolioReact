@@ -11,7 +11,7 @@ const Main = () => {
             Hi, I'm Yasser <span>I am a FrontEndDev and IT</span>
           </h2>
           <div className="main-btn">
-            <a href="#projects">My Work</a>
+            <a href="#contacts">Lets Work</a>
           </div>
           <div className="links">
             <a href="https://www.linkedin.com/in/yasser-abdalla-a12113161/">
