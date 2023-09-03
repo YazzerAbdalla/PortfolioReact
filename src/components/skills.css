@@ -1,25 +1,33 @@
-section{
-  width: 100%;
-}
-.card i {
-  font-size: 8rem;
-  color: rgb(0, 195, 255);
-}
-.card h3 {
-  margin-top: 20px;
-  color: rgb(0, 195, 255);
+
+.skills-card {
+  background-color: white;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 1.2s ease;
+  text-align: center;
 }
 
-.card:hover {
+.skills-card i {
+  font-size: 8rem;
+  color: var(--sec-color);
+}
+.skills-card h3 {
+  margin-top: 20px;
+  color: var(--sec-color);
+}
+
+.skills-card:hover {
   transform: scale(1.1);
   background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
 }
-.card:hover * {
+.skills-card:hover * {
   color: white;
 }
-@media (max-width: 582px){
-  .card{
+@media (max-width: 582px) {
+  .skills-card {
     padding: 50px;
-    
   }
 }

@@ -1,4 +1,5 @@
 header {
+  height: 60px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -27,13 +28,14 @@ header {
 .nav {
   display: flex;
   align-items: center;
+  
 }
 .nav a,
 button {
   text-decoration: none;
-  color: #00c3ff;
+  color: var(--sec-color);
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 600;
   margin-left: 25px;
 }
 .nav button {
@@ -42,23 +44,21 @@ button {
   color: rgb(125, 125, 125);
 }
 .nav button:hover {
-  color: #00c3ff;
+  color: var(--sec-color);
 }
 #navBtn:hover {
-  color: #00c3ff;
+  color: var(--sec-color);
 }
 #navBtn {
-  /* display: none; */
-  color: #00c3ff;
+  color: var(--sec-color);
   font-size: 1.5rem;
   font-weight: 500;
   background-color: transparent;
   border: none;
-  /* color: rgb(125, 125, 125); */
 }
 header .nav-btn {
   display: none;
-  color: #00c3ff;
+  color: var(--sec-color);
 }
 @media screen and (max-width: 1024px) {
   header {
@@ -70,21 +70,22 @@ header .nav-btn {
   header .nav {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100%;
-    width: 100%;
+    width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     transition: 1s;
-    transform: translateY(-100vh);
+    transform: translatex(200vh);
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 5px 25px black;
   }
   .nav a {
     margin: 20px 0;
-    font-weight: 800;
+    font-weight: 600;
   }
   .nav button {
     position: fixed;
