@@ -17,11 +17,11 @@ const Header = ({ onClick }: Props) => {
           Yasser
         </a>
         <div className="nav" ref={navRef}>
-          <a href="#projects" onClick={showNavBar}>
-            Projects
-          </a>
           <a href="#skills" onClick={showNavBar}>
             Skills
+          </a>
+          <a href="#projects" onClick={showNavBar}>
+            Projects
           </a>
           <a href="#contacts" onClick={showNavBar}>
             Contacts
