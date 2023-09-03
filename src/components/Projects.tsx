@@ -9,7 +9,11 @@ const Projects = () => {
       <section id="projects" className="projects">
         <h1 className="title">Projects</h1>
         <div className="container">
+<<<<<<< HEAD
           <a href="https://to-do-listv1.web.app/" className="pro-card">
+=======
+          <a href="#" className="pro-card">
+>>>>>>> 309dca19c8d026dd5fb9bd5be3d94299f121eeff
             <div>
               <i className="fa-solid fa-list-check"></i>
               <img src={toDoList} alt="The img loading" />
