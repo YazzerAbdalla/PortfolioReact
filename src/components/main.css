@@ -78,15 +78,6 @@
 .links a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
-.side-img img {
-  width: 30rem;
-  /* width: auto; */
-  filter: grayscale(15%) brightness(78%);
-  object-fit: cover;
-  object-position: 25% 25%;
-  border-radius: 50%;
-  height: 25rem;
-}
 @media (max-width: 1023px) {
   .main {
     overflow: hidden;

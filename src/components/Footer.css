@@ -40,22 +40,22 @@ footer .container {
     font-size: 0.6rem;
   }
   .end,
-  .links {
+  footer .links {
     width: 100%;
   }
-  .links {
+  footer .links {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
     margin-right: 12px;
   }
-  .links a {
+  footer .links a {
     font-size: 30px;
     margin-right: 12px;
   }
 }
 @media screen and (max-width: 460px) {
-  .links i {
-    font-size: 15px;
+  footer .links i {
+    font-size: 25px;
   }
 }
