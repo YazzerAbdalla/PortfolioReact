@@ -43,19 +43,19 @@ footer .container {
   .links {
     width: 100%;
   }
-  .links {
+  .end .links {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
     margin-right: 12px;
   }
-  .links a {
+  footer .end .links {
     font-size: 30px;
     margin-right: 12px;
   }
 }
 @media screen and (max-width: 460px) {
-  .links i {
-    font-size: 15px;
+  footer .end .links i {
+    font-size: 30px;
   }
 }
