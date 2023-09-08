@@ -40,22 +40,35 @@ footer .container {
     font-size: 0.6rem;
   }
   .end,
-  .links {
+  footer .links {
     width: 100%;
   }
+<<<<<<< HEAD
   .end .links {
+=======
+  footer .links {
+>>>>>>> 65e30e56de956f7cbce7088e7feabb93efcac399
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
     margin-right: 12px;
   }
+<<<<<<< HEAD
   footer .end .links {
+=======
+  footer .links a {
+>>>>>>> 65e30e56de956f7cbce7088e7feabb93efcac399
     font-size: 30px;
     margin-right: 12px;
   }
 }
 @media screen and (max-width: 460px) {
+<<<<<<< HEAD
   footer .end .links i {
     font-size: 30px;
+=======
+  footer .links i {
+    font-size: 25px;
+>>>>>>> 65e30e56de956f7cbce7088e7feabb93efcac399
   }
 }

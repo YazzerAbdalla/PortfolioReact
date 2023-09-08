@@ -5,11 +5,12 @@
 .main {
   background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
   font-size: 1rem;
-  padding: 80px 80px;
-  min-height: 100vh;
+  padding: 0 200px;
+  height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .bg-img {
   position: absolute;
@@ -21,16 +22,22 @@
   display: flex;
   justify-content: space-between;
 }
+.d-flex {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .bio {
   color: white;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 400;
   margin-top: 3.5rem;
 }
 .bio span {
   display: block;
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-weight: 800;
 
   background: -webkit-linear-gradient(
@@ -41,9 +48,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Orbitron", sans-serif;
-}
-.text-center {
-  text-align: center;
 }
 .main-btn a {
   text-decoration: none;
@@ -63,12 +67,14 @@
   z-index: 99;
   transition: 0.8s ease;
 }
-
 .main-btn a:hover {
   transform: scale(1.1);
 }
 .links {
-  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
 }
 .links a {
   font-size: 2.5rem;
@@ -78,25 +84,11 @@
 .links a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
-.side-img img {
-  width: 30rem;
-  /* width: auto; */
-  filter: grayscale(15%) brightness(78%);
-  object-fit: cover;
-  object-position: 25% 25%;
-  border-radius: 50%;
-  height: 25rem;
-}
 @media (max-width: 1023px) {
   .main {
     overflow: hidden;
     font-size: 0.9rem;
-  }
-}
-@media (max-width: 614px) {
-  .main {
-    padding: 0 50px;
-    height: 50vh;
+    padding: 250px 50px;
   }
 }
 @media (max-width: 600px) {
@@ -104,23 +96,25 @@
     overflow: hidden;
     font-size: 0.7rem;
     margin: 15px 0 0 0;
-    min-height: 800px;
     align-items: center;
-    min-height: 80vh;
   }
   .links {
-    margin-left: 0;
+    margin-left: -10px;
+    justify-content: center;
+  }
+  .links a {
+    font-size: 2.1em;
   }
 }
 @media (max-width: 440px) {
   .main {
     overflow: hidden;
-    font-size: 0.5rem;
   }
   .bio {
     margin-top: 0px;
   }
-  .links a {
-    font-size: 2.01rem;
+  .links {
+    margin-left: -8px;
+    justify-content: center;
   }
 }

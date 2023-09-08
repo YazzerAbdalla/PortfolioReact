@@ -8,6 +8,10 @@
   margin: 15px;
   transition: 1.2s ease;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact-card i {
@@ -24,6 +28,6 @@
 }
 @media (max-width: 582px) {
   .contact-card {
-    padding: 50px;
+    padding: 15px;
   }
 }
