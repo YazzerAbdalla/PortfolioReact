@@ -8,7 +8,7 @@ const Main = () => {
       <div className="flex">
         <div className="bio">
           <h2>
-            Hi, I'm Yasser <span>I am a FrontEndDev and IT</span>
+            Hi, I'm Yasser <span>I am a Junior Software Engineer</span>
           </h2>
           <div className="main-btn">
             <a href="#contacts">Lets Work</a>

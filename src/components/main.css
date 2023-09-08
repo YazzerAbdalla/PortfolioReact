@@ -5,11 +5,12 @@
 .main {
   background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
   font-size: 1rem;
-  padding: 80px 80px;
-  min-height: 100vh;
+  padding: 0 200px;
+  height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .bg-img {
   position: absolute;
@@ -24,13 +25,13 @@
 .bio {
   color: white;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 400;
   margin-top: 3.5rem;
 }
 .bio span {
   display: block;
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-weight: 800;
 
   background: -webkit-linear-gradient(
@@ -41,9 +42,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Orbitron", sans-serif;
-}
-.text-center {
-  text-align: center;
 }
 .main-btn a {
   text-decoration: none;
@@ -63,7 +61,6 @@
   z-index: 99;
   transition: 0.8s ease;
 }
-
 .main-btn a:hover {
   transform: scale(1.1);
 }
@@ -82,6 +79,7 @@
   .main {
     overflow: hidden;
     font-size: 0.9rem;
+    padding: 50px;
   }
 }
 @media (max-width: 614px) {
