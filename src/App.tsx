@@ -7,6 +7,7 @@ import Main from "./components/Main";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Animation from "./components/Animation";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <Animation />
     </>
   );
 }
