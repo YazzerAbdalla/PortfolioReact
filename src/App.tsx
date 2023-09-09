@@ -8,13 +8,14 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Animation from "./components/Animation";
+import About from "./components/About";
 
 function App() {
-  const [count, setCount] = useState(0);
   return (
     <>
       <Header />
       <Main />
+      <About />
       <Skills />
       <Projects />
       <Contact />

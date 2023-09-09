@@ -17,6 +17,9 @@ const Header = ({ onClick }: Props) => {
           Yasser
         </a>
         <div className="nav" ref={navRef}>
+          <a href="#about" onClick={showNavBar}>
+            About me
+          </a>
           <a href="#skills" onClick={showNavBar}>
             Skills
           </a>

@@ -33,7 +33,7 @@ footer .container {
 }
 @media screen and (max-width: 600px) {
   footer {
-    padding: 10px;
+    padding: 0px px;
     font-size: 0.8;
   }
   .start {
@@ -46,16 +46,16 @@ footer .container {
   .end .links {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
-    margin-right: 12px;
+    justify-content: space-between;
+    
+    /* margin-right: 12px; */
   }
   footer .end .links {
     font-size: 30px;
-    margin-right: 12px;
+    /* margin-right: 12px; */
   }
-}
-@media screen and (max-width: 460px) {
-  .end .links i {
+  .end .links a {
     font-size: 30px;
+    margin: 0;
   }
 }

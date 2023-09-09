@@ -1,6 +1,5 @@
 import React from "react";
 import "./main.css";
-import bgImg from "../assets/bg-overlay-home1.png";
 import sideImg from "../assets/Elsahel.png";
 const Main = () => {
   return (
@@ -27,12 +26,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-        {/* <div className="bg-img">
-          <img src={bgImg} alt="" />
-        </div> */}
-        {/* <div className="side-img">
-          <img src={sideImg} alt="" />
-        </div> */}
       </div>
     </section>
   );
