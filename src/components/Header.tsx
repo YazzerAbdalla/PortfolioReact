@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./header.css";
+import DarkMode from "./DarkMode";
 interface Props {
   onClick?: () => void;
 }
@@ -16,6 +17,7 @@ const Header = ({ onClick }: Props) => {
         <a className="logo" href="#">
           Yasser
         </a>
+        <DarkMode/>
         <div className="nav" ref={navRef}>
           <a href="#about" onClick={showNavBar}>
             About me

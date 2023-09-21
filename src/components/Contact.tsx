@@ -3,10 +3,8 @@ import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contact = () => {
   return (
-    <section className="contact">
-      <h1 id="contacts" className="title">
-        Contacts
-      </h1>
+    <section id="contacts" className="contact">
+      <h1 className="title">Contacts</h1>
 
       <div className="container">
         <div className="contact-card">

@@ -9,7 +9,11 @@ const Projects = () => {
       <section id="projects" className="projects">
         <h1 className="title">Projects</h1>
         <div className="container">
-          <a href="https://to-do-listv1.web.app/" className="pro-card">
+          <a
+            target="_blank"
+            href="https://to-do-listv1.web.app/"
+            className="pro-card"
+          >
             <div>
               <i className="fa-solid fa-list-check"></i>
               <img src={toDoList} alt="The img loading" />
@@ -19,7 +23,11 @@ const Projects = () => {
               <p>Click me to open</p>
             </div>
           </a>
-          <a href="https://fir-69302.web.app/" className="pro-card">
+          <a
+            target="_blank"
+            href="https://fir-69302.web.app/"
+            className="pro-card"
+          >
             <div>
               <img src={utube} alt="The img loading" />
               <i className="fa-brands fa-youtube"></i>
@@ -29,7 +37,11 @@ const Projects = () => {
               <p>Click me to open</p>
             </div>
           </a>
-          <a href="https://xogame-v1.web.app/" className="pro-card">
+          <a
+            target="_blank"
+            href="https://xogame-v1.web.app/"
+            className="pro-card"
+          >
             <div>
               <i className="fa-solid fa-gamepad"></i>
               <img src={xo} alt="The img loading" />
