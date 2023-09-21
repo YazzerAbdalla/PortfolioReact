@@ -31,7 +31,14 @@ footer .container {
   footer {
     padding: 10px;
   }
+  .end .links a {
+    font-size: 30px;
+  }
+  .start {
+    font-size: 0.9rem;
+  }
 }
+
 @media screen and (max-width: 600px) {
   footer {
     padding: 0px px;
@@ -49,7 +56,10 @@ footer .container {
     flex-wrap: nowrap;
     justify-content: space-between;
 
+<<<<<<< HEAD
     /* margin-right: 12px; */
+=======
+>>>>>>> 5ac3b6fe901f9623e2c6fd4beb170655716aa007
   }
   footer .end .links {
     font-size: 30px;
