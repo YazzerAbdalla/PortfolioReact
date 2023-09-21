@@ -29,7 +29,7 @@ header {
 .nav {
   display: flex;
   align-items: center;
-  
+  background-color: var(--bg-color);
 }
 .nav a,
 button {
@@ -56,6 +56,7 @@ button {
   font-weight: 500;
   background-color: transparent;
   border: none;
+  z-index: 1;
 }
 header .nav-btn {
   display: none;
@@ -77,11 +78,12 @@ header .nav-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 9;
     gap: 1.5rem;
     transition: 1s;
     transform: translatex(200vh);
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: var(--bg-color);
     box-shadow: 5px 5px 25px black;
   }
   .nav a {
@@ -90,8 +92,8 @@ header .nav-btn {
   }
   .nav button {
     position: fixed;
-    top: 6rem;
-    right: 2rem;
+    top: 3rem;
+    right: 3rem;
   }
   header .responsive {
     transform: none;
