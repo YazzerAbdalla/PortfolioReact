@@ -31,3 +31,16 @@ section {
   font-weight: 800;
   margin-bottom: 30px;
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #fff;
+    color: #333;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: #fff;
+  }
+}
