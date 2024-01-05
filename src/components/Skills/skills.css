@@ -20,6 +20,7 @@
 
 .skills-card h3 {
   margin-top: 20px;
+  text-transform: uppercase;
   color: var(--sec-color);
 }
 

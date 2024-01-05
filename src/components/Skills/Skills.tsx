@@ -1,4 +1,3 @@
-import React from "react";
 import "./skills.css";
 const Slider = () => {
   return (
@@ -35,7 +34,7 @@ const Slider = () => {
         </div>
         <div className="skills-card">
           <i className="fa-solid fa-database"></i>
-          <h3>DATABASE</h3>
+          <h3>SQL SERVER</h3>
         </div>
       </div>
     </section>

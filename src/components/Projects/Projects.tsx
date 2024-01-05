@@ -12,15 +12,15 @@ const Projects = () => {
         <div className="container">
           <a
             target="_blank"
-            href="https://to-do-listv1.web.app/"
+            href="https://weather-app-react-v1.web.app/"
             className="pro-card"
           >
             <div>
-              <i className="fa-solid fa-list-check"></i>
-              <img src={toDoList} alt="The img loading" />
+              <i className="fa-solid fa-cloud"></i>
+              <img src={weather} alt="The img loading" />
             </div>
             <div className="info">
-              <p>Simple to-do list</p>
+              <p>Simple weather app</p>
               <p>Click me to open</p>
             </div>
           </a>
@@ -54,15 +54,15 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
-            href="https://weather-app-react-v1.web.app/"
+            href="https://to-do-listv1.web.app/"
             className="pro-card"
           >
             <div>
-              <i className="fa-solid fa-cloud"></i>
-              <img src={weather} alt="The img loading" />
+              <i className="fa-solid fa-list-check"></i>
+              <img src={toDoList} alt="The img loading" />
             </div>
             <div className="info">
-              <p>Simple weather app</p>
+              <p>Simple to-do list</p>
               <p>Click me to open</p>
             </div>
           </a>
