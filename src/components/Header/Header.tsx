@@ -38,6 +38,7 @@ const Header = ({ dark }: { dark: boolean }) => {
           <i className="fa-solid fa-bars"></i>
         </button>
       </header>
+      <div className="blog-progress"></div>
     </>
   );
 };

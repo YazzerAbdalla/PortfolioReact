@@ -99,3 +99,20 @@ header .nav-btn {
     transform: none;
   }
 }
+.blog-progress {
+  height: 10px;
+  width: 100%;
+  background-color: lime;
+  position: fixed;
+  top: 60px;
+  scale: 0 1;
+  transform-origin: left;
+  animation: blog-progress linear;
+  animation-timeline: scroll();
+  z-index: 1000;
+}
+@keyframes blog-progress {
+  to {
+    scale: 1 1;
+  }
+}
