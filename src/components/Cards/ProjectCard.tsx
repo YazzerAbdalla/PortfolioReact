@@ -4,12 +4,13 @@ interface ProjectCardProps {
   img: string;
   url: string;
   title: string;
+  icon: string;
 }
-const ProjectCard = ({ img, url, title }: ProjectCardProps) => {
+const ProjectCard = ({ img, url, title, icon }: ProjectCardProps) => {
   return (
     <a target="_blank" href={url} className="pro-card">
       <div>
-        <i className="fa-solid fa-list-check"></i>
+        <i className={icon}></i>
         <img src={img} alt="The img loading" />
       </div>
       <div className="info">
